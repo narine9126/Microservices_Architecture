@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: product-service
+  cloud:
+    config:
+      uri: http://localhost:8888  #config server url which will read product-service.yml file configuration
+      fail-fast: true
